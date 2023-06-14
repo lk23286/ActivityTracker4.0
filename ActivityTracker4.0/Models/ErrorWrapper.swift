@@ -17,7 +17,6 @@ struct ErrorWrapper: Identifiable {
         self.error = error
         self.guidance = guidance
     }
-   
 }
 
 enum ActivityErrors: Error {
