@@ -25,6 +25,7 @@
 		85D5A7C22A3A2EBC004F24B5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */; };
 		85D5A7C42A3A2F86004F24B5 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C32A3A2F86004F24B5 /* SubView.swift */; };
 		85D5A7C62A3A2FC5004F24B5 /* MainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C52A3A2FC5004F24B5 /* MainHeaderView.swift */; };
+		85D5A7C82A3A3020004F24B5 /* MainDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C72A3A301F004F24B5 /* MainDiagramView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		85D5A7C32A3A2F86004F24B5 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
 		85D5A7C52A3A2FC5004F24B5 /* MainHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeaderView.swift; sourceTree = "<group>"; };
+		85D5A7C72A3A301F004F24B5 /* MainDiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDiagramView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */,
 				85D5A7C32A3A2F86004F24B5 /* SubView.swift */,
 				85D5A7C52A3A2FC5004F24B5 /* MainHeaderView.swift */,
+				85D5A7C72A3A301F004F24B5 /* MainDiagramView.swift */,
 				85D5A7942A3A2248004F24B5 /* Assets.xcassets */,
 				85D5A7962A3A2248004F24B5 /* Preview Content */,
 			);
@@ -200,6 +203,7 @@
 				85D5A7C42A3A2F86004F24B5 /* SubView.swift in Sources */,
 				85D5A7912A3A2243004F24B5 /* ActivityTracker4_0App.swift in Sources */,
 				85D5A7BC2A3A2DCB004F24B5 /* ThemePicker.swift in Sources */,
+				85D5A7C82A3A3020004F24B5 /* MainDiagramView.swift in Sources */,
 				85D5A7B02A3A29C5004F24B5 /* ArchThemeColor.swift in Sources */,
 				85D5A7B62A3A2CC7004F24B5 /* MainEdit.swift in Sources */,
 				85D5A7C22A3A2EBC004F24B5 /* CounterView.swift in Sources */,
