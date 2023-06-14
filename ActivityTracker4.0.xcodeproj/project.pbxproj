@@ -13,6 +13,7 @@
 		85D5A7982A3A2248004F24B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D5A7972A3A2248004F24B5 /* Preview Assets.xcassets */; };
 		85D5A7AA2A3A24D3004F24B5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7A92A3A24D3004F24B5 /* MainView.swift */; };
 		85D5A7AC2A3A2797004F24B5 /* Activtiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7AB2A3A2797004F24B5 /* Activtiy.swift */; };
+		85D5A7AE2A3A2915004F24B5 /* DiagramArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7AD2A3A2915004F24B5 /* DiagramArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		85D5A7972A3A2248004F24B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85D5A7A92A3A24D3004F24B5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		85D5A7AB2A3A2797004F24B5 /* Activtiy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activtiy.swift; sourceTree = "<group>"; };
+		85D5A7AD2A3A2915004F24B5 /* DiagramArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				85D5A7AB2A3A2797004F24B5 /* Activtiy.swift */,
+				85D5A7AD2A3A2915004F24B5 /* DiagramArc.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D5A7AA2A3A24D3004F24B5 /* MainView.swift in Sources */,
+				85D5A7AE2A3A2915004F24B5 /* DiagramArc.swift in Sources */,
 				85D5A7932A3A2243004F24B5 /* ContentView.swift in Sources */,
 				85D5A7AC2A3A2797004F24B5 /* Activtiy.swift in Sources */,
 				85D5A7912A3A2243004F24B5 /* ActivityTracker4_0App.swift in Sources */,
