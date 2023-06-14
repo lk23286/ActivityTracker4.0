@@ -20,6 +20,7 @@
 		85D5A7B62A3A2CC7004F24B5 /* MainEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7B52A3A2CC7004F24B5 /* MainEdit.swift */; };
 		85D5A7B82A3A2D27004F24B5 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7B72A3A2D27004F24B5 /* ErrorView.swift */; };
 		85D5A7BA2A3A2D7F004F24B5 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7B92A3A2D7F004F24B5 /* AddView.swift */; };
+		85D5A7BC2A3A2DCB004F24B5 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7BB2A3A2DCB004F24B5 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		85D5A7B52A3A2CC7004F24B5 /* MainEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEdit.swift; sourceTree = "<group>"; };
 		85D5A7B72A3A2D27004F24B5 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		85D5A7B92A3A2D7F004F24B5 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		85D5A7BB2A3A2DCB004F24B5 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				85D5A7B52A3A2CC7004F24B5 /* MainEdit.swift */,
 				85D5A7B72A3A2D27004F24B5 /* ErrorView.swift */,
 				85D5A7B92A3A2D7F004F24B5 /* AddView.swift */,
+				85D5A7BB2A3A2DCB004F24B5 /* ThemePicker.swift */,
 				85D5A7922A3A2243004F24B5 /* ContentView.swift */,
 				85D5A7942A3A2248004F24B5 /* Assets.xcassets */,
 				85D5A7962A3A2248004F24B5 /* Preview Content */,
@@ -181,6 +184,7 @@
 				85D5A7BA2A3A2D7F004F24B5 /* AddView.swift in Sources */,
 				85D5A7AC2A3A2797004F24B5 /* Activtiy.swift in Sources */,
 				85D5A7912A3A2243004F24B5 /* ActivityTracker4_0App.swift in Sources */,
+				85D5A7BC2A3A2DCB004F24B5 /* ThemePicker.swift in Sources */,
 				85D5A7B02A3A29C5004F24B5 /* ArchThemeColor.swift in Sources */,
 				85D5A7B62A3A2CC7004F24B5 /* MainEdit.swift in Sources */,
 			);
