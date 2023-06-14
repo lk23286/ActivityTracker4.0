@@ -28,6 +28,7 @@
 		85D5A7C82A3A3020004F24B5 /* MainDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C72A3A301F004F24B5 /* MainDiagramView.swift */; };
 		85D5A7CA2A3A305C004F24B5 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C92A3A305C004F24B5 /* ArcView.swift */; };
 		85D5A7CC2A3A30B2004F24B5 /* MainFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7CB2A3A30B2004F24B5 /* MainFooterView.swift */; };
+		85D5A7CE2A3A3117004F24B5 /* MainFooterViewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7CD2A3A3117004F24B5 /* MainFooterViewLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		85D5A7C72A3A301F004F24B5 /* MainDiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDiagramView.swift; sourceTree = "<group>"; };
 		85D5A7C92A3A305C004F24B5 /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		85D5A7CB2A3A30B2004F24B5 /* MainFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFooterView.swift; sourceTree = "<group>"; };
+		85D5A7CD2A3A3117004F24B5 /* MainFooterViewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFooterViewLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				85D5A7C72A3A301F004F24B5 /* MainDiagramView.swift */,
 				85D5A7C92A3A305C004F24B5 /* ArcView.swift */,
 				85D5A7CB2A3A30B2004F24B5 /* MainFooterView.swift */,
+				85D5A7CD2A3A3117004F24B5 /* MainFooterViewLine.swift */,
 				85D5A7942A3A2248004F24B5 /* Assets.xcassets */,
 				85D5A7962A3A2248004F24B5 /* Preview Content */,
 			);
@@ -206,6 +209,7 @@
 				85D5A7AC2A3A2797004F24B5 /* Activtiy.swift in Sources */,
 				85D5A7C62A3A2FC5004F24B5 /* MainHeaderView.swift in Sources */,
 				85D5A7C02A3A2E59004F24B5 /* DetailEditView.swift in Sources */,
+				85D5A7CE2A3A3117004F24B5 /* MainFooterViewLine.swift in Sources */,
 				85D5A7CC2A3A30B2004F24B5 /* MainFooterView.swift in Sources */,
 				85D5A7C42A3A2F86004F24B5 /* SubView.swift in Sources */,
 				85D5A7912A3A2243004F24B5 /* ActivityTracker4_0App.swift in Sources */,
