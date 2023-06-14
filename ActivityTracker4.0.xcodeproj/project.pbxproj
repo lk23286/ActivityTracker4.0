@@ -23,6 +23,7 @@
 		85D5A7BE2A3A2E1B004F24B5 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7BD2A3A2E1B004F24B5 /* ThemeView.swift */; };
 		85D5A7C02A3A2E59004F24B5 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7BF2A3A2E59004F24B5 /* DetailEditView.swift */; };
 		85D5A7C22A3A2EBC004F24B5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */; };
+		85D5A7C42A3A2F86004F24B5 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C32A3A2F86004F24B5 /* SubView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		85D5A7BD2A3A2E1B004F24B5 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		85D5A7BF2A3A2E59004F24B5 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		85D5A7C32A3A2F86004F24B5 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				85D5A7BD2A3A2E1B004F24B5 /* ThemeView.swift */,
 				85D5A7BF2A3A2E59004F24B5 /* DetailEditView.swift */,
 				85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */,
+				85D5A7C32A3A2F86004F24B5 /* SubView.swift */,
 				85D5A7942A3A2248004F24B5 /* Assets.xcassets */,
 				85D5A7962A3A2248004F24B5 /* Preview Content */,
 			);
@@ -190,6 +193,7 @@
 				85D5A7BA2A3A2D7F004F24B5 /* AddView.swift in Sources */,
 				85D5A7AC2A3A2797004F24B5 /* Activtiy.swift in Sources */,
 				85D5A7C02A3A2E59004F24B5 /* DetailEditView.swift in Sources */,
+				85D5A7C42A3A2F86004F24B5 /* SubView.swift in Sources */,
 				85D5A7912A3A2243004F24B5 /* ActivityTracker4_0App.swift in Sources */,
 				85D5A7BC2A3A2DCB004F24B5 /* ThemePicker.swift in Sources */,
 				85D5A7B02A3A29C5004F24B5 /* ArchThemeColor.swift in Sources */,
