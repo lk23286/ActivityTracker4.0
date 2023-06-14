@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		85D5A7912A3A2243004F24B5 /* ActivityTracker4_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7902A3A2243004F24B5 /* ActivityTracker4_0App.swift */; };
-		85D5A7932A3A2243004F24B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7922A3A2243004F24B5 /* ContentView.swift */; };
 		85D5A7952A3A2248004F24B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D5A7942A3A2248004F24B5 /* Assets.xcassets */; };
 		85D5A7982A3A2248004F24B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D5A7972A3A2248004F24B5 /* Preview Assets.xcassets */; };
 		85D5A7AA2A3A24D3004F24B5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7A92A3A24D3004F24B5 /* MainView.swift */; };
@@ -23,12 +22,12 @@
 		85D5A7BC2A3A2DCB004F24B5 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7BB2A3A2DCB004F24B5 /* ThemePicker.swift */; };
 		85D5A7BE2A3A2E1B004F24B5 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7BD2A3A2E1B004F24B5 /* ThemeView.swift */; };
 		85D5A7C02A3A2E59004F24B5 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7BF2A3A2E59004F24B5 /* DetailEditView.swift */; };
+		85D5A7C22A3A2EBC004F24B5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85D5A78D2A3A2243004F24B5 /* ActivityTracker4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityTracker4.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D5A7902A3A2243004F24B5 /* ActivityTracker4_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTracker4_0App.swift; sourceTree = "<group>"; };
-		85D5A7922A3A2243004F24B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85D5A7942A3A2248004F24B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D5A7972A3A2248004F24B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85D5A7A92A3A24D3004F24B5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		85D5A7BB2A3A2DCB004F24B5 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		85D5A7BD2A3A2E1B004F24B5 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		85D5A7BF2A3A2E59004F24B5 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 				85D5A7BB2A3A2DCB004F24B5 /* ThemePicker.swift */,
 				85D5A7BD2A3A2E1B004F24B5 /* ThemeView.swift */,
 				85D5A7BF2A3A2E59004F24B5 /* DetailEditView.swift */,
-				85D5A7922A3A2243004F24B5 /* ContentView.swift */,
+				85D5A7C12A3A2EBC004F24B5 /* CounterView.swift */,
 				85D5A7942A3A2248004F24B5 /* Assets.xcassets */,
 				85D5A7962A3A2248004F24B5 /* Preview Content */,
 			);
@@ -186,7 +186,6 @@
 				85D5A7B22A3A2A8D004F24B5 /* ErrorWrapper.swift in Sources */,
 				85D5A7BE2A3A2E1B004F24B5 /* ThemeView.swift in Sources */,
 				85D5A7AE2A3A2915004F24B5 /* DiagramArc.swift in Sources */,
-				85D5A7932A3A2243004F24B5 /* ContentView.swift in Sources */,
 				85D5A7B82A3A2D27004F24B5 /* ErrorView.swift in Sources */,
 				85D5A7BA2A3A2D7F004F24B5 /* AddView.swift in Sources */,
 				85D5A7AC2A3A2797004F24B5 /* Activtiy.swift in Sources */,
@@ -195,6 +194,7 @@
 				85D5A7BC2A3A2DCB004F24B5 /* ThemePicker.swift in Sources */,
 				85D5A7B02A3A29C5004F24B5 /* ArchThemeColor.swift in Sources */,
 				85D5A7B62A3A2CC7004F24B5 /* MainEdit.swift in Sources */,
+				85D5A7C22A3A2EBC004F24B5 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
