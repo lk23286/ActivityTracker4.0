@@ -16,6 +16,7 @@
 		85D5A7AE2A3A2915004F24B5 /* DiagramArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7AD2A3A2915004F24B5 /* DiagramArc.swift */; };
 		85D5A7B02A3A29C5004F24B5 /* ArchThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7AF2A3A29C5004F24B5 /* ArchThemeColor.swift */; };
 		85D5A7B22A3A2A8D004F24B5 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7B12A3A2A8D004F24B5 /* ErrorWrapper.swift */; };
+		85D5A7B42A3A2C17004F24B5 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5A7B32A3A2C17004F24B5 /* Goal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		85D5A7AD2A3A2915004F24B5 /* DiagramArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramArc.swift; sourceTree = "<group>"; };
 		85D5A7AF2A3A29C5004F24B5 /* ArchThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchThemeColor.swift; sourceTree = "<group>"; };
 		85D5A7B12A3A2A8D004F24B5 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		85D5A7B32A3A2C17004F24B5 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				85D5A7AD2A3A2915004F24B5 /* DiagramArc.swift */,
 				85D5A7AF2A3A29C5004F24B5 /* ArchThemeColor.swift */,
 				85D5A7B12A3A2A8D004F24B5 /* ErrorWrapper.swift */,
+				85D5A7B32A3A2C17004F24B5 /* Goal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D5A7B42A3A2C17004F24B5 /* Goal.swift in Sources */,
 				85D5A7AA2A3A24D3004F24B5 /* MainView.swift in Sources */,
 				85D5A7B22A3A2A8D004F24B5 /* ErrorWrapper.swift in Sources */,
 				85D5A7AE2A3A2915004F24B5 /* DiagramArc.swift in Sources */,
