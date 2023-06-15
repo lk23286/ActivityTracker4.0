@@ -9,16 +9,14 @@ import SwiftUI
 
 @main
 struct ActiviityTracker2App: App {
-    
-    
     @State private var activities = Activity.lightSample
     @State private var goal = Goal()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
                 MainView(activities: $activities, goal: $goal)
             }
-          
         }
     }
 }

@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct ThemeView: View {
-    
     let arcThemeColor: ArcThemeColor
-
+    
     var body: some View {
-       
         
         ZStack {
             RoundedRectangle(cornerRadius: 4)

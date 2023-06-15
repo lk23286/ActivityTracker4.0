@@ -26,6 +26,5 @@ enum ActivityErrors: Error {
 extension ErrorWrapper {
     static let basicErrors: [ErrorWrapper] = [
         ErrorWrapper(error: ActivityErrors.reachedMaxActivities, guidance: "Can't add more activities")]
-    
 }
 

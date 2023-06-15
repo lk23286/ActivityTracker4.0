@@ -11,10 +11,8 @@ struct ThemePicker: View {
     @Binding var selection: ArcThemeColor
     
     var body: some View {
-        
         Picker("", selection: $selection) {
             ForEach(ArcThemeColor.allCases) { arcThemeColor in
-                
                 ThemeView(arcThemeColor: arcThemeColor)
                     .tag(arcThemeColor)
             }
@@ -23,7 +21,6 @@ struct ThemePicker: View {
 }
 
 struct ThemePicker_Previews: PreviewProvider {
-    
     static var previews: some View {
         ThemePicker(selection: .constant(ArcThemeColor.lightGreenInk) )
     }

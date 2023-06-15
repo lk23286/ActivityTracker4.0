@@ -47,9 +47,8 @@ enum ArcThemeColor: String, CaseIterable, Identifiable {
             number = 4
         }
         return number
-        
     }
-
+    
     var name: String {
         rawValue
         

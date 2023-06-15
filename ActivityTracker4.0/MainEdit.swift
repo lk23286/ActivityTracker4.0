@@ -14,13 +14,9 @@ struct MainEdit: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        
         VStack {
-            
             List {
-                
                 ForEach($activites) { $activity in
-                    
                     NavigationLink(destination:
                                     AddView(data: $editedData)
                         .onAppear  {
@@ -29,7 +25,6 @@ struct MainEdit: View {
                         .onDisappear(perform: {
                             activity.update(from: editedData)
                         })
-                                   
                     )
                     {
                         MainHeaderView(activity: $activity)
@@ -44,13 +39,11 @@ struct MainEdit: View {
     }
 }
 
-
 struct MainEdit_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             MainEdit(activites: .constant(Activity.lightSample))
         }
-        
     }
 }
 

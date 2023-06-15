@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MainDiagramView: View {
-    
     var activities: [Activity]
     
     var body: some View {
@@ -17,21 +16,15 @@ struct MainDiagramView: View {
             .background(Color(K.backgroundGray)
             )
             .overlay {
-
                 ForEach(activities) { activity in
-                        ArcView(achivement: activity.achievement, archThemeColor: activity.arcThemeColor)
+                    ArcView(achivement: activity.achievement, archThemeColor: activity.arcThemeColor)
                 }
- 
             }
             .background(Color(K.backgroundGray))
     }
 }
 
 struct MainDiagramView_Previews: PreviewProvider {
-    
-   // static var activities: [Activity] = Activity.lightSample
-  
-    
     static var previews: some View {
         MainDiagramView(activities: Activity.lightSample)
     }

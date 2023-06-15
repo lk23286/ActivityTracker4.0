@@ -18,9 +18,9 @@ struct Activity: Identifiable {
     var arcThemeColor: ArcThemeColor
     
     var achievement: Int {
-       Int( progress / goal * 100.0 )
+        Int( progress / goal * 100.0 )
     }
-
+    
     init(id: UUID = UUID(), name: String, goal: Double, progress: Double, subActivities: [Activity] = [], arcTheme: ArcThemeColor) {
         self.id = id
         self.name = name
@@ -69,7 +69,7 @@ extension Activity {
 
 extension Activity {
     
-
+    
     static let lightSample: [Activity] = [
         Activity(name: "Swift", goal: 100, progress: 50, subActivities: [
             Activity(name: "Bible", goal: 60, progress: 45, arcTheme: ArcThemeColor.lightGreenInk),
@@ -81,19 +81,16 @@ extension Activity {
             Activity(name: "Swim", goal: 30, progress: 23, arcTheme: ArcThemeColor.lightBlueInk)
         ],arcTheme: ArcThemeColor.lightBlueInk),
         Activity(name: "Meditation", goal: 100, progress: 70, arcTheme: ArcThemeColor.lightYellowInk),
-       // Activity(name: "Sleep", goal: 100, progress: 80, arcTheme: ArcThemeColor.lightYellowInk)
-    
+        // Activity(name: "Sleep", goal: 100, progress: 80, arcTheme: ArcThemeColor.lightYellowInk)
     ]
+    
     static var lightSampleGoal: Goal {
-        
-        var tmpGoal = Goal()
-        
+        let tmpGoal = Goal()
         var sumMainGoal = 0.0
         var sumSubGoal: [Double] = [0, 0, 0, 0]
         var indice = 0
         
         for mainActivity in lightSample {
-            
             sumMainGoal += mainActivity.goal
             indice = mainActivity.arcThemeColor.arcNumber
             
@@ -107,8 +104,6 @@ extension Activity {
         }
         return Goal(totalMax: Goal.initTotal - sumMainGoal, mainMax: sumMainGoal, mainMin: sumSubGoal, subMax: sumSubGoal)
     }
-    
-    
 }
 
 

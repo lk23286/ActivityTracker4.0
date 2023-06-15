@@ -8,7 +8,6 @@
 import Foundation
 
 struct Goal {
-    
     static var initTotal: Double = 24 * 60
     
     var totalMax: Double = 0
@@ -16,13 +15,10 @@ struct Goal {
     var mainMin: [Double] = []
     var subMax: [Double] = []
     var subMin: Double = 1
-   
 }
 
 struct CoreData {
-    
     var activites: [Activity]
-    
     var initTime:Double = 24 * 60
     
     var goals: Goals {
@@ -52,7 +48,6 @@ struct CoreData {
     }
     
     var avaialbleTimeForMainsSubGoal: [Double] {
-        
         var tmp: [Double] = [0,0,0,0]
         var indice = 0
         for activity in activites {
@@ -62,13 +57,10 @@ struct CoreData {
         }
         return tmp
     }
-
-    
 }
 
 struct Goals {
     var sumOfMains: Double
     var sumOfMainsSubs: [Double]
-    
 }
 

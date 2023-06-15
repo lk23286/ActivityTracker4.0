@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MainView: View {
-    
     @Binding var activities: [Activity]
     @Binding var goal: Goal
     
@@ -18,21 +17,15 @@ struct MainView: View {
     @State private var isPresentingEditActivity = false
     @State private var errorWrapper = ErrorWrapper.basicErrors[0]
     
-    
     var body: some View {
-        
         VStack {
-            
             List {
                 ForEach($activities) { $activity in
-                    
                     if !activity.subActivities.isEmpty {
-                        
                         NavigationLink(destination: SubView(subActivities: $activity.subActivities, mainActivityName: $activity.name)) {
                             MainHeaderView(activity: $activity)
                         }
                         .listRowBackground(activity.arcThemeColor.paperColor)
-                        
                     } else {
                         NavigationLink(destination: CounterView(progress: $activity.progress)) {
                             MainHeaderView(activity: $activity)
@@ -46,7 +39,6 @@ struct MainView: View {
             Spacer()
             
             MainFooterView(activities: activities)
-            
                 .background(Color(K.backgroundGray))
                 .navigationTitle("Main Activities")
                 .toolbar {
@@ -67,9 +59,7 @@ struct MainView: View {
                     }
                 }
                 .sheet(isPresented: $isPresentingNewActivity) {
-                    
                     if activities.count < 4 {
-                        
                         NavigationView {
                             AddView(data: $newActivityData)
                                 .toolbar {
@@ -113,22 +103,15 @@ struct MainView: View {
                 }
         }
     }
-    
 }
 
 struct MainView_Previews: PreviewProvider {
-    
     static var goal = Goal()
     
     static var previews: some View {
         NavigationView {
             MainView(activities: .constant(Activity.lightSample), goal: .constant(goal))
         }
-        
-        
-        
-        
-        
     }
 }
 

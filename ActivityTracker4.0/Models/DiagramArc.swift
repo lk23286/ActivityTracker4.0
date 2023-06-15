@@ -17,11 +17,9 @@ struct DiagramArc: Shape {
     
     private var startAngle: Angle { Angle(degrees: 0.0) }
     private var endAngle: Angle { Angle(degrees: Double(percent) * 3.6) }
-    
     private var diameterModifier: Double {
         1.25 - Double(number) * 0.25
     }
-    
     
     func path(in rect: CGRect) -> Path {
         let diameter = min(rect.size.width, rect.size.height) - 35

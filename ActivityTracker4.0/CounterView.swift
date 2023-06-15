@@ -8,47 +8,23 @@
 import SwiftUI
 
 struct CounterView: View {
-    
     @Binding var progress: Double
-  
     
-
     var body: some View {
-        
         Form {
             Section(header: Text("Progress:")) {
-                
-//                HStack {
-//                    Slider(value: $progress, in: 1...200, step: 1, label: {
-//                        Text("Duration")
-//                            .padding()
-//                    })
-//
-//                    Text("\(Int(progress)) min")
-//                }
                 Text("Counter: 00:00:00")
                     .font(.largeTitle)
-                
-                
             }
-
-                
-                    .navigationTitle("Counter")
-           
+            .navigationTitle("Counter")
         }
-        
-
     }
 }
 
 struct CounterView_Previews: PreviewProvider {
     static var previews: some View {
-        
         NavigationView {
             CounterView(progress: .constant(Activity.lightSample[0].progress))
         }
-        
-        
-      
     }
 }

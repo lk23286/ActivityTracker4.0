@@ -11,14 +11,10 @@ struct ArcView: View {
     
     var achivement: Int
     var archThemeColor: ArcThemeColor
-
+    
     var body: some View {
-        
         DiagramArc(number: archThemeColor.arcNumber, percent: 100)
             .stroke(archThemeColor.paperColor, lineWidth: 22)
-            //.brightness(0.0)
-            //.opacity(archThemeColor.opacity)
-           
             .overlay {
                 DiagramArc(number: archThemeColor.arcNumber, percent: achivement)
                     .rotation(Angle(degrees: -90))
@@ -28,9 +24,7 @@ struct ArcView: View {
 }
 
 struct ArcView_Previews: PreviewProvider {
-    
     static var previews: some View {
-        
         ArcView( achivement: 30, archThemeColor: ArcThemeColor.lightYellowInk)
     }
 }

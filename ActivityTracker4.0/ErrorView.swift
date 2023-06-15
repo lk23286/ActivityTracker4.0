@@ -12,9 +12,7 @@ struct ErrorView: View {
     var errorWrapper: ErrorWrapper
     @Environment(\.dismiss) var dismiss
     
-    
     var body: some View {
-        
         NavigationView {
             VStack {
                 Text("Error Occured")
@@ -25,7 +23,6 @@ struct ErrorView: View {
                 Text(errorWrapper.guidance)
                     .font(.headline)
                     .foregroundColor(.red)
-                    
                 Spacer()
             }
             .padding()
@@ -37,17 +34,14 @@ struct ErrorView: View {
                         dismiss()
                     }
                 }
-        }
-        
-
+            }
         }
     }
 }
 
 struct ErrorView_Previews: PreviewProvider {
-    
-     enum sampleError: Error {
-         case errorRequired
+    enum sampleError: Error {
+        case errorRequired
     }
     
     static var previews: some View {
